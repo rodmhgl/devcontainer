@@ -10,7 +10,7 @@ RUN sudo apt-get update && \
     unzip \
     software-properties-common \
     make && \
-    sudo apt-get clean -y \
+    sudo apt-get clean -y && \
     sudo rm -rf /var/lib/apt/lists/*
 
 # Install tflint
